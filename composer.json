@@ -1,0 +1,39 @@
+{
+  "name": "tombroucke/carman-client",
+  "type": "package",
+  "description": "A client for Carman API.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tom Broucke",
+      "email": "tom@tombroucke.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Otomaties\\CarmanClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "livewire/livewire": "^4.4",
+    "owenvoke/blade-fontawesome": "^3.2",
+    "tombroucke/wp-fluent-hooks": "^1.0",
+    "roots/acorn": "^6.3",
+    "johnbillion/extended-cpts": "^5.1",
+    "tombroucke/wp-sync-posts": "^2.4"
+  },
+  "scripts": {
+    "test:configure": "@php tests/smoke/configure_smoke.php"
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "Otomaties\\CarmanClient\\Providers\\CarmanClientServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/pint": "^1.29"
+  }
+}

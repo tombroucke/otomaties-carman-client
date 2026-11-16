@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Otomaties Carman Client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 15:20+0100\n"
+"PO-Revision-Date: 2026-11-16 15:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.10\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Domain: otomaties-carman-client\n"
+"X-Poedit-WPHeader: otomaties-carman-client.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: otomaties-carman-client.php:4
+msgid "Otomaties Carman Client"
+msgstr "Otomaties Carman Client"
+
+#. Description of the plugin/theme
+#: otomaties-carman-client.php:5
+msgid "Load vehicle data from the Carman API and provide it to the front-end."
+msgstr ""
+"Laad voertuiggegevens op via de Carman API en stuur deze door naar de front-"
+"end."
+
+#. Author of the plugin/theme
+#: otomaties-carman-client.php:7
+msgid "Tom Broucke"
+msgstr "Tom Broucke"
+
+#. Author URI of the plugin/theme
+#: otomaties-carman-client.php:8
+msgid "https://tombroucke.be/"
+msgstr "https://tombroucke.be/"
+
+#: resources/views/components/vehicle-card.blade.php:28
+#: resources/views/livewire/reservation-form.blade.php:58
+#, python-format
+msgid "From %s/day"
+msgstr "Vanaf %s/dag"
+
+#: resources/views/livewire/booking-form.blade.php:55
+msgid "Vehicle type"
+msgstr "Voertuigtype"
+
+#: resources/views/livewire/booking-form.blade.php:61
+msgid "Choose a vehicle"
+msgstr "Kies een voertuig"
+
+#: resources/views/livewire/booking-form.blade.php:88
+msgid "Calculate price"
+msgstr "Prijs berekenen"
+
+#: resources/views/livewire/booking-form.blade.php:97
+#: resources/views/livewire/reservation-form.blade.php:230
+msgid "Loading..."
+msgstr "Laden…"
+
+#: resources/views/livewire/reservation-form.blade.php:11
+#, python-format
+msgid "Book this %s"
+msgstr "Reserveer deze %s"
+
+#: resources/views/livewire/reservation-form.blade.php:28
+msgid "Other customers also rented these accessories."
+msgstr "Andere klanten huurden ook volgende accessoires."
+
+#: resources/views/livewire/reservation-form.blade.php:55
+msgid "Free"
+msgstr "Gratis"
+
+#: resources/views/livewire/reservation-form.blade.php:84
+msgid "Add"
+msgstr "Voeg toe"
+
+#: resources/views/livewire/reservation-form.blade.php:94
+#: resources/views/livewire/reservation-form.blade.php:270
+msgid "Insurance"
+msgstr "Verzekering"
+
+#: resources/views/livewire/reservation-form.blade.php:126
+msgid "Contact details"
+msgstr "Contactgegevens"
+
+#: resources/views/livewire/reservation-form.blade.php:138
+msgid "Professional use"
+msgstr "Professioneel gebruik"
+
+#: resources/views/livewire/reservation-form.blade.php:144
+msgid "Company name"
+msgstr "Bedrijfsnaam"
+
+#: resources/views/livewire/reservation-form.blade.php:145
+msgid "VAT number"
+msgstr "BTW Nummer"
+
+#: resources/views/livewire/reservation-form.blade.php:146
+msgid "First name"
+msgstr "Voornaam"
+
+#: resources/views/livewire/reservation-form.blade.php:147
+msgid "Last name"
+msgstr "Familienaam"
+
+#: resources/views/livewire/reservation-form.blade.php:148
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: resources/views/livewire/reservation-form.blade.php:149
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: resources/views/livewire/reservation-form.blade.php:150
+msgid "Street and number"
+msgstr "Straat en nummer"
+
+#: resources/views/livewire/reservation-form.blade.php:151
+msgid "City"
+msgstr "Gemeente"
+
+#: resources/views/livewire/reservation-form.blade.php:152
+msgid "Postal code"
+msgstr "Postcode"
+
+#: resources/views/livewire/reservation-form.blade.php:182
+msgid "Remarks"
+msgstr "Opmerkingen"
+
+#: resources/views/livewire/reservation-form.blade.php:206
+msgid "I agree to the terms and conditions"
+msgstr "Ik ga akkoord met de voorwaarden"
+
+#: resources/views/livewire/reservation-form.blade.php:221
+msgid "Book now"
+msgstr "Boek nu"
+
+#: resources/views/livewire/reservation-form.blade.php:258
+#, python-format
+msgid "Estimated cost - %d day"
+msgid_plural "Estimated cost - %d days"
+msgstr[0] "Geschatte kost - %d dag"
+msgstr[1] "Geschatte kost - %d dagen"
+
+#: resources/views/livewire/reservation-form.blade.php:262
+msgid "Price"
+msgstr "Prijs"
+
+#: resources/views/livewire/reservation-form.blade.php:262
+#: resources/views/livewire/reservation-form.blade.php:284
+msgid "(incl. VAT)"
+msgstr "(incl. BTW)"
+
+#: resources/views/livewire/reservation-form.blade.php:284
+msgid "Total"
+msgstr "Totaal"
+
+#: resources/views/livewire/reservation-form.blade.php:292
+msgid "Discount code"
+msgstr "Kortingscode"
+
+#: resources/views/livewire/reservation-form.blade.php:300
+msgid "Discount codes are not included in this estimate."
+msgstr "Kortingscodes zijn niet inbegrepen in deze prijsopgave."
+
+#: resources/views/livewire/reservation-form.blade.php:305
+msgid "Free km"
+msgstr "Gratis km"
+
+#: resources/views/livewire/reservation-form.blade.php:309
+msgid "Deposit"
+msgstr "Aanbetaling"
+
+#: resources/views/livewire/reservation-form.blade.php:313
+msgid "Extra km price"
+msgstr "Extra km prijs"
+
+#: resources/views/livewire/reservation-form.blade.php:318
+msgid "Estimated cost"
+msgstr "Geschatte kost"
+
+#: resources/views/livewire/reservation-form.blade.php:319
+msgid "Choose your pickup and return moment to see the estimated cost."
+msgstr ""
+"Kies het tijdstip van afhalen en terugbrengen om de geschatte kosten te "
+"bekijken."
+
+#: resources/views/livewire/vehicle-overview.blade.php:56
+msgid "Calculate / Book"
+msgstr "Bereken / Reserveer"
+
+#: resources/views/livewire/vehicle-overview.blade.php:66
+msgid "No vehicles match your filters."
+msgstr "Er zijn geen voertuigen die aan uw zoekcriteria voldoen."
+
+#: resources/views/livewire/vehicle-overview.blade.php:71
+msgid "Reset filters"
+msgstr "Reset filters"
+
+#: resources/views/partials/rental-period.blade.php:16
+msgid "Pickup location"
+msgstr "Afhaallocatie"
+
+#: resources/views/partials/rental-period.blade.php:22
+msgid "Choose your pickup location"
+msgstr "Kies hier uw afhaalpunt"
+
+#: resources/views/partials/rental-period.blade.php:41
+msgid "Choose a different return location"
+msgstr "Kies een andere inleverlocatie"
+
+#: resources/views/partials/rental-period.blade.php:48
+msgid "Return location"
+msgstr "Inleverlocatie"
+
+#: resources/views/partials/rental-period.blade.php:54
+msgid "Choose your return location"
+msgstr "Kies je inleverlocatie"
+
+#: resources/views/partials/rental-period.blade.php:66
+msgid "Pickup"
+msgstr "Afhalen"
+
+#: resources/views/partials/rental-period.blade.php:66
+msgid "Return"
+msgstr "Inleveren"
+
+#: resources/views/partials/rental-period.blade.php:74
+msgid "Pickup date"
+msgstr "Afhaaldatum"
+
+#: resources/views/partials/rental-period.blade.php:74
+msgid "Return date"
+msgstr "Inleverdatum"
+
+#: resources/views/partials/rental-period.blade.php:92
+msgid "Pickup time"
+msgstr "Afhaaluur"
+
+#: resources/views/partials/rental-period.blade.php:92
+msgid "Return time"
+msgstr "Inlevertijd"
+
+#: resources/views/partials/rental-period.blade.php:122
+msgid "Evening pickup possible (on weekdays & subject to availability)"
+msgstr ""
+"Mogelijkheid voor avondafhaling (op weekdagen & indien beschikbaarheid)"
+
+#: resources/views/partials/rental-period.blade.php:127
+msgid "Renting for a longer period? Shortlease"
+msgstr "Voor lange tijd huren? Shortlease"
+
+#: src/Abstracts/PostType.php:36
+msgid "Carman ID"
+msgstr "Carman-ID"
+
+#: src/Livewire/BookingForm.php:97
+msgid "vehicle type"
+msgstr "voertuigtype"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:54
+msgid "pickup location"
+msgstr "locatie afhaling"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:55
+msgid "return location"
+msgstr "locatie inleveren"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:56
+msgid "pickup date"
+msgstr "afhaaldatum"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:57
+msgid "pickup hour"
+msgstr "afhaaltijd"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:58
+msgid "pickup minute"
+msgstr "afhaal minuten"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:59
+msgid "return date"
+msgstr "inleverdatum"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:60
+msgid "return hour"
+msgstr "inleveruur"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:61
+msgid "return minute"
+msgstr "inlever minuten"
+
+#: src/Livewire/Concerns/HasRentalPeriod.php:74
+msgid "The return date must be after the pickup date."
+msgstr "De inleverdatum moet na de afhaaldatum liggen."
+
+#: src/Livewire/ReservationForm.php:144
+msgid "insurance"
+msgstr "verzekering"
+
+#: src/Livewire/ReservationForm.php:145
+msgid "discount code"
+msgstr "kortingscode"
+
+#: src/Livewire/ReservationForm.php:146
+msgid "company name"
+msgstr "bedrijfsnaam"
+
+#: src/Livewire/ReservationForm.php:148
+msgid "first name"
+msgstr "voornaam"
+
+#: src/Livewire/ReservationForm.php:149
+msgid "last name"
+msgstr "familienaam"
+
+#: src/Livewire/ReservationForm.php:150
+msgid "phone number"
+msgstr "telefoonnummer"
+
+#: src/Livewire/ReservationForm.php:151
+msgid "email address"
+msgstr "e-mailadres"
+
+#: src/Livewire/ReservationForm.php:152
+msgid "street and number"
+msgstr "straat en nummer"
+
+#: src/Livewire/ReservationForm.php:153
+msgid "postal code"
+msgstr "postcode"
+
+#: src/Livewire/ReservationForm.php:154
+msgid "city"
+msgstr "gemeente"
+
+#: src/Livewire/ReservationForm.php:155
+msgid "remarks"
+msgstr "opmerkingen"
+
+#: src/Livewire/ReservationForm.php:156
+msgid "terms and conditions"
+msgstr "algemene voorwaarden"
+
+#. translators: %s: singular category name, e.g. "bestelwagen"
+#: src/Livewire/VehicleOverview.php:63
+#, php-format
+msgid "Rent your %s today"
+msgstr "Huur vandaag je %s"
+
+#. translators: 1: pickup location, 2: pickup date, 3: return location, 4: return date
+#: src/Livewire/VehicleOverview.php:89
+#, php-format
+msgid "Pickup in %1$s on %2$s, return in %3$s on %4$s"
+msgstr "Afhalen in %1$s op %2$s, inleveren in %3$s op %4$s"
+
+#: src/Livewire/VehicleOverview.php:116
+msgid "Options"
+msgstr "Opties"
+
+#: src/OptionsPage.php:14 src/OptionsPage.php:23
+msgid "Carman settings"
+msgstr "Carman-instellingen"
+
+#: src/OptionsPage.php:15
+msgid "Carman"
+msgstr "Carman"
+
+#: src/OptionsPage.php:27
+msgid "Booking page"
+msgstr "Reservatiepagina"
+
+#: src/OptionsPage.php:48
+msgid "Display"
+msgstr "Weergave"
+
+#: src/OptionsPage.php:52
+msgid "Singular name"
+msgstr "Enkelvoudige naam"
+
+#: src/OptionsPage.php:55
+msgid "E.g. \"van\". Used in headings like \"Rent your van today\"."
+msgstr ""
+"Bv. \"bestelwagen\". Wordt gebruikt in titels zoals \"Huur vandaag je "
+"bestelwagen\"."
+
+#: src/OptionsPage.php:59
+msgid "Icon"
+msgstr "Icoon"
+
+#: src/OptionsPage.php:62
+msgid ""
+"Font Awesome icon name, e.g. \"fas-van-shuttle\". Leave empty to use the "
+"icon from Carman."
+msgstr ""
+"Naam van een Font Awesome-icoon, bv. \"fas-van-shuttle\". Laat leeg om het "
+"icoon uit Carman te gebruiken."
+
+#: src/PostTypes/Car.php:13
+msgid "Vehicle"
+msgstr "Voertuig"
+
+#: src/PostTypes/Car.php:18
+msgid "Vehicles"
+msgstr "Voertuigen"
+
+#: src/PostTypes/CarAccessory.php:13
+msgid "Accessory"
+msgstr "Accessoire"
+
+#: src/PostTypes/CarAccessory.php:18
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: src/PostTypes/CarCategory.php:13
+msgid "Vehicle category"
+msgstr "Voertuigcategorie"
+
+#: src/PostTypes/CarCategory.php:18
+msgid "Vehicle categories"
+msgstr "Voertuigcategorieën"
+
+#: src/PostTypes/CarInsurance.php:18
+msgid "Insurances"
+msgstr "Verzekeringen"
+
+#: src/PostTypes/CarOption.php:13
+msgid "Vehicle option"
+msgstr "Voertuigoptie"
+
+#: src/PostTypes/CarOption.php:18
+msgid "Vehicle options"
+msgstr "Voertuigopties"
+
+#: src/PostTypes/DiscountCode.php:18
+msgid "Discount codes"
+msgstr "Kortingscodes"
+
+#: src/PostTypes/Location.php:13
+msgid "Location"
+msgstr "Locatie"
+
+#: src/PostTypes/Location.php:18
+msgid "Locations"
+msgstr "Locaties"
+
+#: src/PostTypes/Product.php:13
+msgid "Product"
+msgstr "Product"
+
+#: src/PostTypes/Product.php:18
+msgid "Products"
+msgstr "Producten"
+
+#: src/PostTypes/ProductCategory.php:13
+msgid "Product category"
+msgstr "Productcategorie"
+
+#: src/PostTypes/ProductCategory.php:18
+msgid "Product categories"
+msgstr "Productcategorieën"
+
+#: src/PostTypes/SeasonPrice.php:13
+msgid "Season price"
+msgstr "Seizoensprijs"
+
+#: src/PostTypes/SeasonPrice.php:18
+msgid "Season prices"
+msgstr "Seizoensprijzen"
+
+#: src/PostTypes/ShippingCost.php:13
+msgid "Shipping cost"
+msgstr "Verzendkost"
+
+#: src/PostTypes/ShippingCost.php:18
+msgid "Shipping costs"
+msgstr "Verzendkosten"
+
+#~ msgid "Hour"
+#~ msgstr "Uur"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuten"
