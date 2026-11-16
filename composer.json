@@ -1,8 +1,8 @@
 {
   "name": "tombroucke/carman-client",
-  "type": "package",
   "description": "A client for Carman API.",
   "license": "MIT",
+  "type": "wordpress-plugin",
   "authors": [
     {
       "name": "Tom Broucke",
